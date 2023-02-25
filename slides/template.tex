@@ -227,11 +227,41 @@
 
 \begin{frame}
 	\frametitle{Contrastive Language-Image Pre-training (CLIP)}
-	
-	link between textual semantics and their visual representations
-	good explanation: 
-	https://www.assemblyai.com/blog/how-dall-e-2-actually-works/
+	%link between textual semantics and their visual representations
+	\begin{figure}
+		\includegraphics[width=0.83\linewidth]{Images/CLIP1.png}
+		\cite{CLIP}
+	\end{figure}
 \end{frame}
+
+\begin{frame}
+	\frametitle{Contrastive Language-Image Pre-training (CLIP)}
+	%link between textual semantics and their visual representations
+	%CLIP pre-trains an image encoder and a text encoder to predict which images were paired with which texts in our dataset. We then use this behavior to turn CLIP into a zero-shot classifier. We convert all of a dataset’s classes into captions such as “a photo of a dog” and predict the class of the caption CLIP estimates best pairs with a given image.
+	\begin{figure}
+		\includegraphics[width=0.83\linewidth]{Images/CLIP2.png}
+		\cite{CLIP}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Diffusion model}
+	%link between textual semantics and their visual representations
+	\begin{figure}
+		\includegraphics[width=0.83\linewidth]{Images/diffusionModel.png}
+		\caption{Directed graphical model \cite{DBLP:journals/corr/abs-2006-11239}}
+	\end{figure}
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Putting all together}
+	\begin{figure}
+		\includegraphics[width=0.85\linewidth]{Images/highLevel.png}
+		\cite{https://doi.org/10.48550/arxiv.2204.06125}
+	\end{figure}
+\end{frame}
+
 
 
 \section{ethical}
@@ -250,7 +280,7 @@
 
 
 %------------------------------------------------
-\begin{frame}[plain]{References} 
+\begin{frame}[allowframebreaks]{References} 
     \nocite{*}
     \bibliographystyle{unsrt}
     \bibliography{bib.bib}
