@@ -7,8 +7,7 @@
 \section{Introduction}
 Applications for computer vision and methods for processing images have considerably benefited in recent years from developments made possible by deep learning and artificial intelligence (AI). One of these is picture synthesis, which is the act of creating new images and modifying ones that already exist. Because to its many useful applications in fields including art creation, image editing, virtual reality, video games, and computer-aided design, image synthesis is a fascinating and significant field of research.\\
 Text-conditional image models are capable to generate images from text queries and can arrange unrelated objects in a semantically plausible way. They are also called text-to-image models.
-One of the most popular examples of such models is Open AI's Dall-E 2 \cite{DallE}
-.
+One of the most popular examples of such models is Open AI's Dall-E 2 \cite{DallE}, which can generate photorealistic images (see figure \ref{example}) or images in different styles that can be specified by natural language text queries and has a zero-shot manner \cite{zeroShot}.
 
 \begin{figure} [h]
 	\includegraphics[width = 1\linewidth]{images/DallEExample.png}
@@ -59,7 +58,7 @@ DALL-E 2 has the potential to be employed in a range of applications, including 
 \section{Ethical Consideration}
 The ability to synthesize images from a text input by the user gives great potential for misuse. \\
 Companies like Open AI try to train their models to decline inappropriate requests, but the line between inappropriate and acceptable requests is blurred and difficult to pin down precisely. Besides there are open source models like Stable Diffusion \cite{StableDiffusion}.\\
-Is it ethical acceptable to generate pictures of others without their permission or propaganda material that influences many people after publication. What about pornography or even child pornography?
+Is it ethical acceptable to generate pictures of others without their permission or propaganda material that influences many people after publication. What about pornography or even child pornography?\\
 In the following section, we address the question of which ethical decision-making justifies which application of image generation models.
 \subsection{Kant}
 Kant's categorical imperative implies that all people should behave in a certain way if they want everyone else to do the same.
@@ -78,11 +77,36 @@ Does it keep pedophiles who can generate images of children's pornography from o
 \section{What is done?}
 Open AI states at their website that DALLE 2's capacity to produce violent, hateful, or pornographic images was constrained. DALLE 2's exposure to these ideas is reduced by "removing the most explicit content from the training data". Advanced methods are also employed to prevent the photorealistic generation of real people's faces, particularly those of public figures.
 And if filters detect text prompts and image uploads that might be against their policies, no images are generated. To prevent abuse, both automated and human monitoring mechanisms are employed \cite{DallE}. \\
-A TIME's investigation revealed that OpenAI used outsourced Kenyan laborers to label text snippets of violence, hate speech, and sexual abuse to generate training data for their ChatGPT’s predecessor, GPT-3 and payed them less than \$2 per hour \cite{KenyaExclusive}. The continuous exposure of people to this content is very likely to cause psychological consequences.
+\subsection{Data Labeling}
+A TIME's investigation revealed that OpenAI used outsourced Kenyan laborers to label text snippets of violence, hate speech, and sexual abuse to generate training data for their ChatGPT’s (Chat Generative Pre-trained Transformer) predecessor, GPT-3 (Generative Pre-trained Transformer 3) that uses deep learning techniques to generate human-like text and engage in conversational interactions and payed them less than \$2 per hour \cite{KenyaExclusive}. The continuous exposure of people to this content is very likely to cause psychological consequences.
+\subsection{Bias}
+Text-to-image generative models have been shown to have biases, especially gender and skin tone biases.
+Studies have revealed that even when the model is prompted with neutral phrases (such as "a photo of a lawyer") that include no indications to a particular social group, it nevertheless produces images that are biased toward white men \cite{DallEval}.
+The training data, which consists of several image-text pairs from the internet, teaches the biases.
+
+
 \section{What could be done?}
-In order to prevent people from constantly being confronted with textual or pictorial images of violence to label training data for AI, companies could join forces and make their already labeled data available to others and use already existing databases like the Socio-Moral Image Database \cite{Database}}.
+\subsubsection*{Limit Training Data}
+To hinder text-to-image models from generating inappropriate images the training data can be limited but therefore data that is inappropriate from a commonsense morality  point of view must be labeled as such. But overall quality could degrade depending on how many and which training data are left out.\\
+Other models can be trained to recognize immoral pictures and texts but human supervising is also needed.
+In order to prevent people from constantly being confronted with textual or pictorial images of violence, companies could join forces and make their already labeled data available to others and use already existing databases like the Socio-Moral Image Database \cite{Database}.
+
+\begin{figure}
+\begin{center}
+	\includegraphics[width= 0.8\linewidth]{Images/moralAltering.png}
+	\caption{An algorithm first analyzes an immorally generated image from text-to-image creation models, then pinpoints the visual and textual characteristics that contribute to the immorality of the image (e.g., smoking). Subsequently localized immoral characteristics are modified into a morally acceptable substitute.\cite{MoralEditing}}
+		\label{moralEditing}
+\end{center}
+\end{figure}
+
+\subsubsection*{Moral image manipulation}
+Another interesting approach does not affect the training of an AI but rather recognizes immoral parts of an already generated image and specifically alters them.
+Park et al. introduced  \cite{MoralEditing} a model recognizing visual commonsense immorality of a given picture, localizes the immoral parts of the image and manipulates it into a morally-qualifying alternative, see figure \ref{moralEditing}.
+
+
 \section{Conclusion}
 
+\clearpage
 \bibliographystyle{plain}
 \bibliography{bib.bib}
 \end{document}
