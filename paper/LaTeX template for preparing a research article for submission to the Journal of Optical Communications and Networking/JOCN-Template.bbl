@@ -1,0 +1,49 @@
+\begin{thebibliography}{10}
+\newcommand{\enquote}[1]{``#1''}
+
+\bibitem{DallE}
+OpenAI, \enquote{Dall-e 2 openai,}  (2022).
+
+\bibitem{zeroShot}
+A.~Ramesh, M.~Pavlov, G.~Goh, S.~Gray, C.~Voss, A.~Radford, M.~Chen, and
+  I.~Sutskever, \enquote{Zero-shot text-to-image generation,}
+  {\protect\JournalTitle{CoRR}} \textbf{abs/2102.12092} (2021).
+
+\bibitem{EthicsUnwrapped}
+T.~U. of~Texas~at Austin, \enquote{Ethics unwrapped,}  (2023).
+
+\bibitem{transformer}
+A.~Vaswani, N.~Shazeer, N.~Parmar, J.~Uszkoreit, L.~Jones, A.~N. Gomez,
+  L.~Kaiser, and I.~Polosukhin, \enquote{Attention is all you need,}  (2017).
+
+\bibitem{T2IReview}
+S.~Frolov, T.~Hinz, F.~Raue, J.~Hees, and A.~Dengel, \enquote{Adversarial
+  text-to-image synthesis: {A} review,} {\protect\JournalTitle{CoRR}}
+  \textbf{abs/2101.09983} (2021).
+
+\bibitem{CLIP}
+A.~Ramesh, P.~Dhariwal, A.~Nichol, C.~Chu, and M.~Chen, \enquote{Hierarchical
+  text-conditional image generation with clip latents,}  (2022).
+
+\bibitem{StableDiffusion}
+S.~Diffusion, \enquote{Stable diffusion,}  (2023).
+
+\bibitem{KenyaExclusive}
+TIME, \enquote{Exclusive: Openai used kenyan workers on less than $2 per hour
+  to make chatgpt less toxic,}  (2023).
+
+\bibitem{DallEval}
+J.~Cho, A.~Zala, and M.~Bansal, \enquote{Dall-eval: Probing the reasoning
+  skills and social biases of text-to-image generative models,}  (2022).
+
+\bibitem{Database}
+D.~L. Crone, S.~Bode, C.~Murawski, and S.~M. Laham, \enquote{The socio-moral
+  image database (smid): A novel stimulus set for the study of social, moral
+  and affective processes,} {\protect\JournalTitle{PLOS ONE}} \textbf{13},
+  1--34 (2018).
+
+\bibitem{MoralEditing}
+S.~Park, S.~Moon, and J.~Kim, \enquote{Judge, localize, and edit: Ensuring
+  visual commonsense morality for text-to-image generation,}  (2022).
+
+\end{thebibliography}
