@@ -204,7 +204,7 @@
 \newcommand{\ociscodes}[1]{\def\@ociscodes{#1}}
 \newcommand{\ociscodesname}{\textbf{\textit{OCIS codes:}}} % Defines the heading name
 \newcommand{\dates}[1]{\def\@dates{#1}}
-\newcommand{\doi}[1]{\def\@doi{#1}}
+%\newcommand{\doi}[1]{\def\@doi{#1}}
 
 \def\xabstract{abstract}
 \long\def\abstract#1\end#2{\def\two{#2}\ifx\two\xabstract
@@ -237,7 +237,7 @@ THE ABSTRACT\vskip12pt}\let\go\relax\fi
 } %% END if ocis codes not provided
 \noindent
 \parbox{\dimexpr\linewidth}{%
-\@doi%
+%\@doi%
 }%
 \hfil\rule{\linewidth}{.4pt}
 }
@@ -335,4 +335,4 @@ THE ABSTRACT\vskip12pt}\let\go\relax\fi
 \setboolean{shortarticle}{false}
 \setboolean{displaycopyright}{true}
 \dates{Compiled \today}
-\doi{\url{http://dx.doi.org/10.1364/ao.XX.XXXXXX}}
+%\doi{\url{http://dx.doi.org/10.1364/ao.XX.XXXXXX}}

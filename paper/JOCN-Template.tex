@@ -1,4 +1,4 @@
-\documentclass[9,5pt,twocolumn,twoside]{osajnl}
+\documentclass[10pt,twocolumn,twoside]{osajnl}
 %\usepackage[backend=bibtex, defernumbers=true]{biblatex}
 
 
@@ -23,7 +23,7 @@
 % \dates{Compiled \today}
 
 %% To be edited by editor
-% \doi{\url{http://dx.doi.org/10.1364/XX.XX.XXXXXX}}
+%% \doi{\url{http://dx.doi.org/10.1364/XX.XX.XXXXXX}}
 
 \begin{abstract}
 JOCN article style and format is being updated to conform to Optica journal style and format. This new template is now required for preparing a research article for submission to the \emph{Journal of Optical Communications and Networking}. Consult the \href{https://www.opg.optica.org/submit/templates/}{Author Style Guide} for general information about manuscript preparation. Authors may also \href{https://opticaopen.org}{submit articles} prepared using this template to the Optica Publishing Group preprint server, \href{https://preprints.opticaopen.org}{Optica Open}. However, doing so is optional. Please refer to the submission guidelines found there. Note that copyright and licensing information should no longer be added to your Journal or Optica Open manuscript.
@@ -144,7 +144,7 @@ In the above example the generative model is heavily biased towards generating i
 More specifically, in this example, Stable Diffusion, a competitor to DALLE-2, overwhelmingly generates images of white women, the often times associated stereotype to this profession.
 In particular, a study by scientists from UNC Chapel Hill where these biases were measured by the variance of the gender/skin tone distribution through both automated and human evaluation
 was able to determine a clear relationship between the training data - labeled images - and the skin tone/ gender biases\cite{DallEval}. 
-Although these images were not created by DALLE-2 itself, the same phenomenon can be observed for DALLE-2. The example of Stable Diffusion is referred to here, since the 
+Although these images were not created by DALLE-2 itself, the same phenomenon can be observed for DALLE-2 \cite{DalleSocialBias}. The example of Stable Diffusion is referred to here, since the 
 amount of data and visualization options are more plentiful, whereas data for DALLE-2 is still scarce. 
 
 \begin{figure}[htbp]
@@ -155,16 +155,20 @@ amount of data and visualization options are more plentiful, whereas data for DA
 \end{figure}
 
 
-\subsection{Portrayal of racism, misogyny, illegal actions}
-Another downside of DALLE-2 which should not be left out is 
-
-
-
-
+\subsection{Portrayal of racism, porn, illegal actions}
+Another downside of DALLE-2 which should not be left out are the negative consequences that center around one's ability to generate any image at will. 
+Therefore, it is inevitable, that malicious actors will eventually generate harmful, forbidden or illegal imagery. 
+Although AI model companies try to restrict what can be generated from a prompt, as discussed in \ref{section:6}, there will always be workarounds to circumvent these safety-restrictions.
+Consequently, it is possible to generate images that for instance could portray a child smoking which to our western mindset represents an illegal action. 
+Apart from that, other contents harmful to society could be of pornographic or racist nature and may even be considered a felony such as generating child pornography. 
 
 
 \subsection{Deception, Political Propanda and Extremism}
-One of the biggest dangers...
+One of the biggest dangers encompassing AI generated images are politically motivated and abusive contents like so-called deepfakes\footnote[1]{TEST}. 
+Especially in the current times of social media, where uploaded contents go viral\footnote[2]{text} within minutes or hours and where does not exist a dedicated supervisory authority, the danger of FakeNews being spread across
+a country or even the whole globe is tremendously large and can bring about severe damage. 
+
+
 
 Use in combination with chatgpt, ...
 
@@ -202,6 +206,7 @@ Here another weakness of utilitarianism comes into view: the consequences of an 
 Does it keep pedophiles who can generate images of children's pornography from obtaining content from other sources, which would be not ethical justifiable from a utilitarian point of view?
 
 \section{What is currently being done?}
+\label{section:6}
 Open AI states in their Terms of Service (TOS) that DALLE 2's capacity to produce violent, hateful, or pornographic images is constrained. 
 DALLE 2's exposure to these ideas is reduced by "removing the most explicit content from the training data". 
 "Advanced methods are also employed to prevent the photorealistic generation of real people's faces, particularly those of public figures."
