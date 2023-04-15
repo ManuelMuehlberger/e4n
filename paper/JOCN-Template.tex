@@ -135,7 +135,11 @@ does not value consequences and would therefore not pull the lever, as one shoul
 
 \section{What Ethical Challenges exist?}
 Like with any emerging technology, there do not only come possibilities, but also challenges society has to face in its usage.
-In this section a handful of problems will be outlined that are later on to be analysed with the help of the aforementioned moral principles. 
+The ability to synthesize images from a text input by the user gives great potential for misuse. \\
+Companies like Open AI try to train their models to decline inappropriate requests, but the line between inappropriate and acceptable requests is blurred and difficult to pin down precisely. 
+Besides that, there are also models like Stable Diffusion \cite{StableDiffusion} available, which, as of now, cannot be regulated in a meaningful way. 
+This is the case because it is open-source in nature and anybody can modify or distribute the source code, so that there does not exist a single point of liability.
+In this section a handful of problems will be outlined that are later on to be analysed with the help of the aforementioned moral principles.
 
 \subsection{Social Biases}
 Text-to-image generative models have been shown to have varying amounts of biases, especially gender and skin tone biases. 
@@ -145,7 +149,7 @@ More specifically, in this example, Stable Diffusion, a competitor to DALLE-2, o
 In particular, a study by scientists from UNC Chapel Hill where these biases were measured by the variance of the gender/skin tone distribution through both automated and human evaluation
 was able to determine a clear relationship between the training data - labeled images - and the skin tone/ gender biases\cite{DallEval}. 
 Although these images were not created by DALLE-2 itself, the same phenomenon can be observed for DALLE-2 \cite{DalleSocialBias}. The example of Stable Diffusion is referred to here, since the 
-amount of data and visualization options are more plentiful, whereas data for DALLE-2 is still scarce. 
+amount of data and visualization options are more plentiful, whereas data for DALLE-2 is still scarce. TODO: reinforces STEREOTYPES!!!!
 
 \begin{figure}[htbp]
 	\centering
@@ -163,10 +167,16 @@ Consequently, it is possible to generate images that for instance could portray 
 Apart from that, other contents harmful to society could be of pornographic or racist nature and may even be considered a felony such as generating child pornography. 
 
 
-\subsection{Deception, Political Propanda and Extremism}
+\subsection{Deception, Political Propaganda and Extremism}
 One of the biggest dangers encompassing AI generated images are politically motivated and abusive contents like so-called deepfakes\footnote[1]{TEST}. 
-Especially in the current times of social media, where uploaded contents go viral\footnote[2]{text} within minutes or hours and where does not exist a dedicated supervisory authority, the danger of FakeNews being spread across
-a country or even the whole globe is tremendously large and can bring about severe damage. 
+Especially in the current times of social media, where uploaded contents go viral\footnote[2]{"Used to describe something that quickly becomes very popular or well known by being published on the internet [...]"\cite{viral}.} within minutes or hours and where does not exist a dedicated supervisory authority, the danger of FakeNews being spread across
+a country or even the whole globe is tremendously large and can bring about severe damage. \\ 
+For example on March 23rd, 2023, Donald Trump, the former president of the United States, had images circulate of him 
+were he allegedly resisted arrest and was tackled to the ground by the police. This image was uploaded on Twitter and has been viewed over five million times in a few days. Despite the fact that the original creator 
+only ever intended for it to be a joke, the AI-generated picture has still drawn a lot of attention within this short timeframe\cite{trump}. In this case, the creator clarified that the image 
+was not real and no harm was intended, however in other scenarios where indeed malicious intentions are present, differentiating a fake image from a real one may be problematic and may also lead to severe reputation damage.
+\\
+Apart from that, another threat to the wellbeing of society is political propaganda and extremism.
 
 
 
@@ -183,11 +193,16 @@ Use in combination with chatgpt, ...
 
 
 \section{Ethical Examination}
-The ability to synthesize images from a text input by the user gives great potential for misuse. \\
-Companies like Open AI try to train their models to decline inappropriate requests, but the line between inappropriate and acceptable requests is blurred and difficult to pin down precisely. 
-Besides that there are also open source models like Stable Diffusion \cite{StableDiffusion} available, which, as of now, cannot be regulated in a meaningful way. \\
-Is it ethical acceptable to generate pictures of others without their permission or propaganda material that influences many people after publication. What about pornography or even child pornography?\\
-In the following section, we address the question of which ethical decision-making justifies which application of image generation models.
+Taking into account all of the aforementioned aspects, it is of significantly relevant to examine whether the use of image generating models in malicious edge cases is ethically justifiable, when considering the extensive consequences
+that they may entail. 
+QUESTIONS
+These questions will be evaluated ethically, from the Kantian point of view as well as the Utilitarian perspective, in the following sections. 
+
+
+
+
+%Is it ethically acceptable to generate pictures of others without their permission or propaganda material that influences many people after publication. What about pornography or even child pornography?\\
+%In the following section, we address the question of which ethical decision-making justifies which application of image generation models.
 
 \subsection{Kant}
 Kant's categorical imperative implies that all people should behave in a certain way if they want everyone else to do the same.
