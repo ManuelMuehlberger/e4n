@@ -241,7 +241,7 @@ However, this only applies to the assumption, that other populations like neighb
 \subsection{Case B - Social Biases and Stereotypes}
 %Ist es OK, dass in Dalle gewisse Personengruppen überproportional vertreten sind und Stereotypen verstärkt werden? 
 %Durch die Unterrepräsentation von Minderheiten in den Trainingsdaten
-For assessing whether it is morally justifiable that AI image generation models such as DALL-E 2 overrepresent certain groups of persons and thereby amplify stereotypes, it is necessary to 
+To gauge whether it is morally justifiable that AI image generation models such as DALL-E 2 overrepresent certain groups of persons and thereby amplify stereotypes, it is necessary to 
 identify whether the Categorial Imperative by Kant is satisfied or not. Therefore, the leading principle, that one should act in a way that it could also be a universal law \cite{kant}, has to be fulfilled. 
 According to Kant and his ethics "every human being has equal dignity (or absolute worth)" \cite{kant}. Consequently, any human being is worth as much as any other and discrimination is hence always immoral. 
 \\
@@ -296,24 +296,41 @@ Apart from that, OpenAI also blocks image uploads as well as image generation th
 This is done to avoid the misuse of DALLE-2 to create deceptive or harmful images \cite{openaiimage}. 
 \\
 Lastly, every image generated using DALLE-2 includes a small watermark to distinguish it from a real world image \cite{openaicp}. 
-However, it is questionable to what extent the watermark actually serves as a way to definitively mark the content since it can easily be removed.
+However, it is questionable to what extent the watermark actually serves as a way to definitively mark the content since it is removal is both easy and allowed by OpenAI's content policy.
+Therefore, the watermark may rather serve as juridical cover on OpenAI's side or as a marketing measure.
+\\
+In China there has already been a successful push to legislate the use of such systems. In January 2022 the law called Internet Information Service Deep Synthesis Management Provisions was adopted to provide clear rules
+to strictly govern AI systems. Especially relevant towards the typical use case of an AI image generation system like DALLE-2 are: 
+\begin{itemize}
+	\item Linking a government id to an account to be able to sign up for such services is mandatory
+	\item Companies must keep logs on who generated what images
+	\item Artificially generated images must be unambiguously marked as such by the use of e.g. watermarks 
+\end{itemize}
+These measures were undertaken to guarantee a traceable connection between an image and its actual creator, to be able to identify the person liable for the 
+specific content generated \cite{CACGuidelines}. Despite the fact that the adopted laws strictly regulate the use of AI technologies, it can be recognized 
+that at least measures were taken to define a framework for the usage of AI, since in the EU there are not yet regulations of any kind.
+\\
+In the EU, an Artifical Intelligence Act has already been proposed in 2021, but is still only a proposal as of now. 
+In the proposed regulation, applications are sorted according to their risks and regulated accordingly. 
+While in low-risk classifications there are little restrictions, high-risk applications are highly controlled if not even forbidden, like 
+facial recognition for surveillance purposes \cite{EUAI}. 
+Because both very innocent images as well as very dangerous images can be generated, it is hardly possible to gauge where DALLE-2 would fall on this scale.
 
--Simple Watermark\\
--strict regulation in China\\
--no regulation in the west (eu ai law proposal?)\\
-
-\subsection{Data Labeling}
-A TIME's investigation revealed that OpenAI used outsourced Kenyan laborers to label text snippets of violence, hate speech, and sexual abuse to generate training data for their ChatGPT’s (Chat Generative Pre-trained Transformer) predecessor, GPT-3 (Generative Pre-trained Transformer 3) that uses deep learning techniques to generate human-like text and engage in conversational interactions and payed them less than 2 US \$ per hour \cite{KenyaExclusive}. The continuous exposure of people to this content is very likely to cause psychological consequences.
+%\subsection{Data Labeling}
+%A TIME's investigation revealed that OpenAI used outsourced Kenyan laborers to label text snippets of violence, hate speech, 
+%and sexual abuse to generate training data for their ChatGPT’s (Chat Generative Pre-trained Transformer) predecessor, GPT-3 (Generative Pre-trained Transformer 3) 
+%that uses deep learning techniques to generate human-like text and engage in conversational interactions and payed them less than 2 US \$ per hour \cite{KenyaExclusive}. 
+%The continuous exposure of people to this content is very likely to cause psychological consequences.
 
 \section{What could be done?}
-\subsubsection*{Limit Training Data}
+\subsection{Limit Training Data}
 To hinder text-to-image models from generating inappropriate images the training data can be limited but therefore data that is inappropriate from a commonsense morality  point of view must be labeled as such. But overall quality could degrade depending on how many and which training data are left out.\\
 Other models can be trained to recognize immoral pictures and texts but human supervising is also needed.
 In order to prevent people from constantly being confronted with textual or pictorial images of violence, companies could join forces and make their already labeled data available to others and use already existing databases like the Socio-Moral Image Database \cite{Database}.
 
 
 
-\subsubsection*{Moral image manipulation}
+\subsection{Moral image manipulation}
 Another interesting approach does not affect the training of an AI but rather recognizes immoral parts of an already generated image and specifically alters them.
 Park et al. introduced  %\cite{MoralEditing} 
 a model recognizing visual commonsense immorality of a given picture, localizes the immoral parts of the image and manipulates it into a morally-qualifying alternative, see figure %\ref{moralEditing}.
