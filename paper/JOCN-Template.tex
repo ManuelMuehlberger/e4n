@@ -183,6 +183,15 @@ were he allegedly resisted arrest and was tackled to the ground by the police. T
 only ever intended for it to be a joke, the AI-generated picture has still drawn a lot of attention within this short timeframe\cite{trump}. In this case, the creator clarified that the image 
 was not real and that no harm was intended, however in other scenarios where indeed malicious intentions are present, differentiating a fake image from a real one may be problematic and may also lead to severe reputation damage.
 \\
+Apart from that, another threat to the wellbeing of society is extremism. With the innovation of AI comes the opportunity for easily accessible tools that allow
+for quick content creation without requiring any specific skill set. This way, appealing or persuasive extremist media or similar can rapidly be generated
+and brought into circulation, which enables extremists to produce more content of equal quality with less effort than before\cite{AIPropaganda}.
+Especially concerning is the fact, that many of the often times preferred mediums can be generated in an (almost) fully autonomous manner through the combination of multiple AI systems.
+It may, for instance, be possible to create modifications for a video game within minutes using only the help of an assortment of AI tools.
+Researchers from the Global Network on Extremism and Technology were able to generate code to modify a Python video game as well as plotlines for a potential game story with the help of ChatGPT. 
+3D assets for guns as well as video game cover art were created using Scenario and MidJourneyAI\footnote[4]{Scenario is an AI used to create computer-generated game assets. MidJourneyAI
+is an AI tool to generate images much like DALLE-2 or Stable Diffusion.}. This case demonstrates once more with what ease it is possible to create harmful content without any real effort \cite{AIPropaganda}. 
+
 \begin{figure}[htbp]
 	\centering
 	\fbox{\includegraphics[width = 0.6\linewidth]{images/GameCoverArtCapitolInsurrection.png}}
@@ -190,33 +199,10 @@ was not real and that no harm was intended, however in other scenarios where ind
 	\label{capitol}
 \end{figure}
 
-\noindent
-Apart from that, another threat to the wellbeing of society is extremism. With the innovation of AI comes the opportunity for easily accessible tools that allow
-for quick content creation without requiring any specific skill set. This way, appealing or persuasive extremist media or similar can rapidly be generated
-and brought into circulation, which enables extremists to produce more content of equal quality with less effort than before\cite{AIPropaganda}.
-Especially concerning is the fact, that many of the often times preferred mediums can be generated in an (almost) fully autonomous manner through the combination of multiple AI systems.
-It may, for instance, be possible to create modifications for a video game within minutes using only the help of an assortment of AI tools.
-Researchers from the Global Network on Extremism and Technology were able to generate code to modify a Python video game as well as plotlines for a potential game story with the help of ChatGPT. 
-3D assets for guns as well as video game cover art were created using Scenario and MidJourneyAI. 
-
-
-
-
-
-
 \section{Ethical Examination}
 Taking into account all of the aforementioned aspects, it is significantly relevant to examine whether the use of image generating models in malicious edge cases is ethically justifiable, when considering the extensive consequences
 that they may entail. In the first place, the question whether generating political propaganda is morally justifiable will be discussed. 
 \\
-- political propaganda: Kant: nein -> man "lügt" die anderen Invidividuen an und beeinflusst sie mit neg. Intention, ihre Meinungsbildung erfolgt somti auf Falschinformation
-, Utila: nein, die Utility von den Verbreitenden ist zwar groß, aber die der Restbevölkerung nicht -> Meinungsbildung auf Basis von Falschinformation  
-- dann fortfahren mit Bsp, wo sich beide uneinig sind
-QUESTIONS
-These questions will be evaluated ethically, from the Kantian point of view as well as the Utilitarian perspective, in the following sections. 
-
-
-
-
 %Is it ethically acceptable to generate pictures of others without their permission or propaganda material that influences many people after publication. What about pornography or even child pornography?\\
 %In the following section, we address the question of which ethical decision-making justifies which application of image generation models.
 
@@ -286,10 +272,32 @@ it is not morally justifiable that AI image generation models overrepresent cert
 
 \section{What is currently being done?}
 \label{section:6}
-Open AI states in their Terms of Service (TOS) that DALLE 2's capacity to produce violent, hateful, or pornographic images is constrained. 
-DALLE 2's exposure to these ideas is reduced by "removing the most explicit content from the training data". 
-"Advanced methods are also employed to prevent the photorealistic generation of real people's faces, particularly those of public figures."
-And if filters detect text prompts and image uploads that might be against their policies, no images are generated. To prevent abuse, both automated and human monitoring mechanisms are employed \cite{DallE}. \\
+With all dangers and challenges AI image generation models entail, the companies behind those systems have already identified potential harm sources and have taken measures to counteract misuse.
+In their Terms of Service (TOS), OpenAI states, that DALLE-2's capacity to produce violent, hateful, or pornographic images is constrained. 
+For this to work, data filtering was applied to the images depicting violence and sexual content so that data was filtered out of the dataset before training DALLE-2.
+More precisely, OpenAI developed a classifier that detects harmful images: in a first step the classifier was trained on image-text pairs labeled by humans, to define categories 
+of prohibited content. In the consecutive step, more pictures for each of those categories were gathered and trained on to increase precision. Finally, the classifier was run on the entire 
+training data set of DALLE-2, whereas its sensitivity was set in such a manner that it would prefer sorting out data instead of keeping potentially unsafe data. 
+To guarantee and validate the functioning of the applied data filters, two so-called GLIDE\footnote[5]{ERKLÄREN} models were trained, one on the dataset before filtering and one on the dataset after.
+It was shown that "the filtered model generally produced less explicit or graphic content in response to requests for this kind of content"\cite{openaifilters}. 
+\begin{figure}[htbp]
+	\centering
+	\fbox{\includegraphics[width = 1.0\linewidth]{images/filters.png}}
+	\caption{Generations for the prompt "military protest" from the unfiltered model (left) and the filtered model (right). 
+	It is noticeable, that the filtered model almost never produced images of guns \cite{openaifilters}.}
+	\label{filters}
+\end{figure}
+\\
+Another issue OpenAI is working on is social bias. To quantify the amount of bias contained within the data set used for training DALLE-2, a keyword search was conducted 
+which revealed that, especially after applying the filter against harmful images, some groups of keywords were overrepresented whereas others were underrepresented. 
+To fix this problem, the underrepresented images were weighted more to make up for the difference in frequency \cite{openaifilters}. 
+\\
+Apart from that, OpenAI also blocks image uploads as well as image generation that contain faces of public figures, especially politicians and celebrities. 
+This is done to avoid the misuse of DALLE-2 to create deceptive or harmful images \cite{openaiimage}. 
+\\
+Lastly, every image generated using DALLE-2 includes a small watermark to distinguish it from a real world image \cite{openaicp}. 
+However, it is questionable to what extent the watermark actually serves as a way to definitively mark the content since it can easily be removed.
+
 -Simple Watermark\\
 -strict regulation in China\\
 -no regulation in the west (eu ai law proposal?)\\
