@@ -38,9 +38,11 @@
 \RequirePackage[T1]{fontenc}
 \RequirePackage{url}
 \RequirePackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{setspace}
+
 
 \newcommand{\headerfont}{\normalfont\sffamily\fontsize{7}{9} \selectfont}
-\newcommand{\titlefont}{\normalfont\sffamily\bfseries\fontsize{21}{23}\selectfont}
+\newcommand{\titlefont}{\normalfont\sffamily\bfseries\fontsize{22}{24}\selectfont}
 \newcommand{\datesfont}{\normalfont\sffamily\itshape\fontsize{8}{10}\selectfont}
 \renewcommand\UrlFont{\color{color1}\sffamily}
 \newcommand{\absfont}{\normalfont\rmfamily\bfseries\linespread{1.2}\fontsize{10}{12}\selectfont}
@@ -220,10 +222,12 @@ THE ABSTRACT\vskip12pt}\let\go\relax\fi
 % Define a new environment with abstract content and styling
 % (to enable switching between long and short articles)
 \newcommand{\abscontent}{
+\onehalfspacing
 \noindent
 {%
 \parbox{\dimexpr\linewidth}{%
-	\absfont \theabstract
+	\absfont \onehalfspacing
+  \theabstract
     \copyrightfont \ifthenelse{\boolean{displaycopyright}}{\copyrightstatement}{}
 }%
 }%
@@ -254,7 +258,7 @@ THE ABSTRACT\vskip12pt}\let\go\relax\fi
 % Custom title page
 \renewcommand{\@maketitle}{%
 {\vphantom{M}%
-\vskip50pt%
+\vskip40pt%
 {\raggedright \titlefont \@title\par}%
 \vskip11pt
 {\raggedright \@author\par}
