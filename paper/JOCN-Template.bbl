@@ -15,6 +15,10 @@ A.~Ramesh, M.~Pavlov, G.~Goh, S.~Gray, C.~Voss, A.~Radford, M.~Chen, and
   I.~Sutskever, \enquote{Zero-shot text-to-image generation,}
   {\protect\JournalTitle{CoRR}} \textbf{abs/2102.12092} (2021).
 
+\bibitem{mfdp}
+A.~Z. Jenny Benois-Pineau, ed., \emph{Multi-faceted Deep Learning} (Springer
+  Cham, 2021).
+
 \bibitem{transformer}
 A.~Vaswani, N.~Shazeer, N.~Parmar, J.~Uszkoreit, L.~Jones, A.~N. Gomez,
   L.~Kaiser, and I.~Polosukhin, \enquote{Attention is all you need,}  (2017).
@@ -28,19 +32,54 @@ S.~Frolov, T.~Hinz, F.~Raue, J.~Hees, and A.~Dengel, \enquote{Adversarial
 A.~Ramesh, P.~Dhariwal, A.~Nichol, C.~Chu, and M.~Chen, \enquote{Hierarchical
   text-conditional image generation with clip latents,}  (2022).
 
+\bibitem{utilitarianism}
+J.~S. Mill, \emph{Utilitarianism} (The Floating Press, 2009).
+
 \bibitem{EthicsUnwrapped}
 T.~U. of~Texas~at Austin, \enquote{Ethics unwrapped,}  (2023).
+
+\bibitem{StableDiffusion}
+S.~Diffusion, \enquote{Stable diffusion,}  (2023).
 
 \bibitem{DallEval}
 J.~Cho, A.~Zala, and M.~Bansal, \enquote{Dall-eval: Probing the reasoning
   skills and social biases of text-to-image generative models,}  (2022).
 
+\bibitem{DalleSocialBias}
+OpenAI, \enquote{Reducing bias and improving safety in dall·e 2,}  (2022).
+
+\bibitem{stablebias}
+A.~S. Luccioni, C.~Akiki, M.~Mitchell, and Y.~Jernite, \enquote{Stable bias:
+  Analyzing societal representations in diffusion models,}  (2023).
+
+\bibitem{viral}
+\emph{Cambridge Advanced Learners Dictionary} (Klett Sprachen GmbH, 2013).
+
+\bibitem{trump}
+N.~N. Isaac Stanley-Becker, \enquote{Fake images of trump arrest show ‘giant
+  step’ for ai’s disruptive power,}
+  \url{https://www.washingtonpost.com/politics/2023/03/22/trump-arrest-deepfakes/}
+  (2023).
+
 \bibitem{AIPropaganda}
 M.~B.~D. Daniel~Siegel, \enquote{Weapons of mass disruption: Artificial
   intelligence and the production of extremist propaganda,}  (2023).
 
-\bibitem{StableDiffusion}
-S.~Diffusion, \enquote{Stable diffusion,}  (2023).
+\bibitem{kant}
+A.~W. Wood, \emph{Kantian Ethics} (Cambridge University Press, 2008).
+
+\bibitem{openaifilters}
+A.~Nichol, \enquote{Dall·e 2 pre-training mitigations,}
+  \url{https://openai.com/research/dall-e-2-pre-training-mitigations} (2022).
+
+\bibitem{openaiimage}
+OpenAI, \enquote{Reducing bias and improving safety in dall·e 2,}
+  \url{https://openai.com/blog/reducing-bias-and-improving-safety-in-dall-e-2}
+  (2022).
+
+\bibitem{openaicp}
+OpenAI, \enquote{Content policy,}
+  \url{https://labs.openai.com/policies/content-policy} (2022).
 
 \bibitem{KenyaExclusive}
 TIME, \enquote{Exclusive: Openai used kenyan workers on less than 2 usd per
