@@ -1,6 +1,6 @@
 \documentclass[10pt,twocolumn,twoside]{osajnl}
 %\usepackage[backend=bibtex, defernumbers=true]{biblatex}
-
+\usepackage{setspace}
 
 \journal{jocn}
 
@@ -34,6 +34,7 @@
 \setboolean{displaycopyright}{false} % Do not include copyright or licensing information in submission.
 
 \begin{document}
+\onehalfspacing
 
 \maketitle
 
@@ -323,8 +324,14 @@ Because both very innocent images as well as very dangerous images can be genera
 %The continuous exposure of people to this content is very likely to cause psychological consequences.
 
 \section{What could be done?}
+Although there has been some progress in regulating the usage of AI image generation technologies, the points mentioned before prove 
+that there still is a lot of room to improve, from a gonvernmental perspective as well as from the companies' perspective.
+In the following section further possible approaches will be discussed.
+
+
+
 \subsection{Limit Training Data}
-To hinder text-to-image models from generating inappropriate images the training data can be limited but therefore data that is inappropriate from a commonsense morality  point of view must be labeled as such. But overall quality could degrade depending on how many and which training data are left out.\\
+To hinder text-to-image models from generating inappropriate images, the training data can be limited but therefore data that is inappropriate from a commonsense morality  point of view must be labeled as such. But overall quality could degrade depending on how many and which training data are left out.\\
 Other models can be trained to recognize immoral pictures and texts but human supervising is also needed.
 In order to prevent people from constantly being confronted with textual or pictorial images of violence, companies could join forces and make their already labeled data available to others and use already existing databases like the Socio-Moral Image Database \cite{Database}.
 
