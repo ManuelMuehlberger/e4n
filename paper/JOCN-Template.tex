@@ -318,10 +318,7 @@ facial recognition for surveillance purposes \cite{EUAI}.
 Because both very innocent images as well as very dangerous images can be generated, it is hardly possible to gauge where DALLE-2 would fall on this scale.
 
 %\subsection{Data Labeling}
-%A TIME's investigation revealed that OpenAI used outsourced Kenyan laborers to label text snippets of violence, hate speech, 
-%and sexual abuse to generate training data for their ChatGPT’s (Chat Generative Pre-trained Transformer) predecessor, GPT-3 (Generative Pre-trained Transformer 3) 
-%that uses deep learning techniques to generate human-like text and engage in conversational interactions and payed them less than 2 US \$ per hour \cite{KenyaExclusive}. 
-%The continuous exposure of people to this content is very likely to cause psychological consequences.
+
 
 \section{What could be done?}
 Although there has been some progress in regulating the usage of AI image generation technologies, the points mentioned before prove 
@@ -331,11 +328,26 @@ In the following section further possible approaches will be discussed.
 
 
 \subsection{Limit Training Data}
-To hinder text-to-image models from generating inappropriate images, the training data can be limited but therefore data that is inappropriate from a commonsense morality  point of view must be labeled as such. But overall quality could degrade depending on how many and which training data are left out.\\
-Other models can be trained to recognize immoral pictures and texts but human supervising is also needed.
-In order to prevent people from constantly being confronted with textual or pictorial images of violence, companies could join forces and make their already labeled data available to others and use already existing databases like the Socio-Moral Image Database \cite{Database}.
+The approach of limiting training data is a continuation of the process which OpenAI already employs for their DALLE-2 AI, as referred to in \ref{section:6}.
+With this process they are the clear market leader in terms of big AI image generation systems as opposed to the other well known competitors which do not undergo 
+such a procedure. 
 
-
+To hinder text-to-image models from generating inappropriate images, the training data can be limited.
+For this, one needs a separate model to go through the training set while being competent enough to detect inappropriate images reliably 
+from a morality point of view commonly accepted, that must also be labeled as such. 
+As was already touched on in \ref{section:6}, such measures can have some unexpected or undesired side effects that may 
+require even more follow-up measures to mitigate any quality losses. 
+\\
+However to train these secondary models appropriately, there may be a human cost associated with labeling harmful images like pornography or 
+violence.
+A TIME's investigation revealed that OpenAI used outsourced Kenyan laborers to label text snippets of violence, hate speech 
+and sexual abuse to generate training data for their Chat Generative Pre-trained Transformer's (ChatGPT’s) backbone, GPT-3 (Generative Pre-trained Transformer 3) 
+that uses deep learning techniques to generate human-like text and to engage in conversational interactions. 
+The Kenyan laborers were payed less than 2 US \$ per hour \cite{KenyaExclusive}. 
+Continuous exposure of this type of content to people is very likely to cause psychological consequences. \\
+In order to prevent people from constantly being confronted with textual or pictorial images of violence, companies could join forces and make their already labeled data available to others. 
+Such databases like, for example, the Socio-Moral Image Database (SMID) envisioned by researchers from the Melbourne School of Psychological Sciences, could provide a standardized stimulus set of images to help define morality. 
+Stimulus sets like these can save on a lot of harmful labor and provide a universal ground truth to ensure that all companies, no matter how big or how small, can limit the generation of immoral images \cite{Database}.
 
 \subsection{Moral image manipulation}
 Another interesting approach does not affect the training of an AI but rather recognizes immoral parts of an already generated image and specifically alters them.
