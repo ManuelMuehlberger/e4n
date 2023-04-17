@@ -351,6 +351,12 @@ Stimulus sets like these can save on a lot of harmful labour and provide a unive
 \subsection{Moral image manipulation}
 Another interesting approach that does not affect the training of the AI but rather recognizes immoral parts of an already generated image and solely alters them. 
 in 2022 Park et al. introduced this model consisting of three parts: 
+The first part recognizes the "visual commonsense immorality of a given image"\cite{MoralEditing}, rating it through both textual as well as visual attribute identification. 
+The second part uses this gained information to draw a immorality mask, where hotspots identify either immoral actions or items. 
+Lastly, both the image as well as the immorality heat map are passed through an ethical image manipulator, which changes the questionable parts into moral alternatives. 
+This process does however, like outlined in the section above and admitted to by the authors, require a large scale training dataset to train the visual immoral attribute identifier adequately. 
+Because as of now there hardly exist any such systems, the efficacy of such systems will also be limited.
+% (1) our model recognizes the visual commonsense immorality of a given image, (2) our model localizes or highlights immoral visual (and textual) attributes that make the image immoral, and (3) our model manipulates a given immoral image into a morally-qualifying alternative.
 %recognizing visual commonsense immorality of a given picture, localizes the immoral parts of the image and manipulates it into a morally-qualifying alternative, see figure %\ref{moralEditing}.
 \cite{MoralEditing} 
 

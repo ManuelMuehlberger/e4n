@@ -83,10 +83,10 @@
 \RequirePackage{changepage}
 \RequirePackage[left=48pt,%
                 right=42pt,%
-                top=55pt,%
+                top=57pt,%
                 bottom=60pt,%
                 headheight=15pt,%
-                headsep=10pt,%
+                headsep=20pt,%
                 letterpaper,twoside]{geometry}%
 \RequirePackage[labelfont={bf,sf},%
                 labelsep=period,%
