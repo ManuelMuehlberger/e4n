@@ -83,7 +83,7 @@
 \RequirePackage{changepage}
 \RequirePackage[left=48pt,%
                 right=42pt,%
-                top=46pt,%
+                top=55pt,%
                 bottom=60pt,%
                 headheight=15pt,%
                 headsep=10pt,%
