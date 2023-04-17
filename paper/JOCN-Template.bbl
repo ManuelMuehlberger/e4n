@@ -2,13 +2,17 @@
 \newcommand{\enquote}[1]{``#1''}
 
 \bibitem{JasonMAllenCNN}
-R.~Metz, \enquote{Ai won an art contest, and artists are furious,}  (2022).
+R.~Metz, \enquote{Ai won an art contest, and artists are furious,}
+  \url{https://edition.cnn.com/2022/09/03/tech/ai-art-fair-winner-controversy/index.html}
+  (last access: 2023-03-20) (2022).
 
 \bibitem{OperaSpecial}
-J.~M. Allen, \enquote{Théâtre d’opéra spatial,}  (2022).
+J.~M. Allen, \enquote{Théâtre d’opéra spatial,}
+  \url{https://www.jasonmallen.com} (last access: 2023-02-24) (2022).
 
 \bibitem{DallE}
-OpenAI, \enquote{Dall-e 2 openai,}  (2022).
+OpenAI, \enquote{Dall-e 2 openai,} \url{https://openai.com/product/dall-e-2/}
+  (last access: 2023-02-24) (2022).
 
 \bibitem{zeroShot}
 A.~Ramesh, M.~Pavlov, G.~Goh, S.~Gray, C.~Voss, A.~Radford, M.~Chen, and
@@ -32,6 +36,10 @@ S.~Frolov, T.~Hinz, F.~Raue, J.~Hees, and A.~Dengel, \enquote{Adversarial
 A.~Ramesh, P.~Dhariwal, A.~Nichol, C.~Chu, and M.~Chen, \enquote{Hierarchical
   text-conditional image generation with clip latents,}  (2022).
 
+\bibitem{Kant:1990}
+I.~Kant, \emph{Kritik der reinen Vernunft}, no. 37a in Philosophische
+  Bibliothek (Felix Meiner, Hamburg, 1990), 3rd ed.
+
 \bibitem{utilitarianism}
 J.~S. Mill, \emph{Utilitarianism} (The Floating Press, 2009).
 
@@ -39,51 +47,86 @@ J.~S. Mill, \emph{Utilitarianism} (The Floating Press, 2009).
 T.~U. of~Texas~at Austin, \enquote{Ethics unwrapped,}  (2023).
 
 \bibitem{StableDiffusion}
-S.~Diffusion, \enquote{Stable diffusion,}  (2023).
+S.~Diffusion, \enquote{Stable diffusion,} \url{https://stablediffusionweb.com}
+  (last access: 2023-03-11) (2023).
 
 \bibitem{DallEval}
 J.~Cho, A.~Zala, and M.~Bansal, \enquote{Dall-eval: Probing the reasoning
   skills and social biases of text-to-image generative models,}  (2022).
 
 \bibitem{DalleSocialBias}
-OpenAI, \enquote{Reducing bias and improving safety in dall·e 2,}  (2022).
+OpenAI, \enquote{Reducing bias and improving safety in dall·e 2,}
+  \url{https://openai.com/blog/reducing-bias-and-improving-safety-in-dall-e-2}
+  (last access: 2023-04-10) (2022).
 
 \bibitem{stablebias}
 A.~S. Luccioni, C.~Akiki, M.~Mitchell, and Y.~Jernite, \enquote{Stable bias:
   Analyzing societal representations in diffusion models,}  (2023).
 
+\bibitem{gabler}
+S.~F. Wiesbaden, ed., \emph{Gabler Wirtschaftslexikon} (Springer Gabler
+  Wiesbaden, 2019), 19th ed.
+
 \bibitem{viral}
-\emph{Cambridge Advanced Learners Dictionary} (Klett Sprachen GmbH, 2013).
+K.~S. GmbH, ed., \emph{Cambridge Advanced Learners Dictionary} (Klett Sprachen
+  GmbH, 2013).
 
 \bibitem{trump}
 N.~N. Isaac Stanley-Becker, \enquote{Fake images of trump arrest show ‘giant
   step’ for ai’s disruptive power,}
   \url{https://www.washingtonpost.com/politics/2023/03/22/trump-arrest-deepfakes/}
-  (2023).
+  (last access: 2023-04-15) (2023).
 
 \bibitem{AIPropaganda}
 M.~B.~D. Daniel~Siegel, \enquote{Weapons of mass disruption: Artificial
-  intelligence and the production of extremist propaganda,}  (2023).
+  intelligence and the production of extremist propaganda,}
+  \url{https://gnet-research.org/2023/02/17/weapons-of-mass-disruption-artificial-intelligence-and-the-production-of-extremist-propaganda/}
+  (last access: 2023-02-24) (2023).
+
+\bibitem{scenarioai}
+Scenario (2023).
 
 \bibitem{kant}
 A.~W. Wood, \emph{Kantian Ethics} (Cambridge University Press, 2008).
 
+\bibitem{glide}
+A.~Nichol, P.~Dhariwal, A.~Ramesh, P.~Shyam, P.~Mishkin, B.~McGrew,
+  I.~Sutskever, and M.~Chen, \enquote{Glide: Towards photorealistic image
+  generation and editing with text-guided diffusion models,}  (2022).
+
 \bibitem{openaifilters}
 A.~Nichol, \enquote{Dall·e 2 pre-training mitigations,}
-  \url{https://openai.com/research/dall-e-2-pre-training-mitigations} (2022).
+  \url{https://openai.com/research/dall-e-2-pre-training-mitigations} (last
+  access: 2023-04-16) (2022).
 
 \bibitem{openaiimage}
 OpenAI, \enquote{Reducing bias and improving safety in dall·e 2,}
   \url{https://openai.com/blog/reducing-bias-and-improving-safety-in-dall-e-2}
-  (2022).
+  (last access: 2023-04-16) (2022).
 
 \bibitem{openaicp}
 OpenAI, \enquote{Content policy,}
-  \url{https://labs.openai.com/policies/content-policy} (2022).
+  \url{https://labs.openai.com/policies/content-policy} (last access:
+  2023-04-16) (2022).
+
+\bibitem{CACGuidelines}
+G.~W. Rogier~Creemers, \enquote{Translation: Internet information service deep
+  synthesis management provisions (draft for comment) – jan. 2022,}
+  \url{https://digichina.stanford.edu/work/translation-internet-information-service-deep-synthesis-management-provisions-draft-for-comment-jan-2022/}
+  (last access: 2023-04-16) (2022).
+
+\bibitem{EUAI}
+E.~Commission, \enquote{Proposal for a regulation of the european parliament
+  and of the council laying down harmonised rules on artificial intelligence
+  (artificial intelligence act) and amending certain union legislative acts,}
+  \url{https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52021PC0206}
+  (last access: 2023-04-16) (2021).
 
 \bibitem{KenyaExclusive}
 TIME, \enquote{Exclusive: Openai used kenyan workers on less than 2 usd per
-  hour to make chatgpt less toxic,}  (2023).
+  hour to make chatgpt less toxic,}
+  \url{https://time.com/6247678/openai-chatgpt-kenya-workers/} (last access:
+  2023-03-11) (2023).
 
 \bibitem{Database}
 D.~L. Crone, S.~Bode, C.~Murawski, and S.~M. Laham, \enquote{The socio-moral

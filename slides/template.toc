@@ -1,0 +1,6 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Technical Background}{5}{0}{2}
+\beamer@sectionintoc {3}{Ethical Considerations}{10}{0}{3}
+\beamer@sectionintoc {4}{What is currently being done?}{16}{0}{4}
+\beamer@sectionintoc {5}{What could be done?}{20}{0}{5}
+\beamer@sectionintoc {6}{References}{24}{0}{6}

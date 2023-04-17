@@ -1,0 +1,63 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: template.aux
+The style file: unsrt.bst
+Database file #1: bib.bib
+Warning--entry type for "DallE" isn't style-file defined
+--line 22 of file bib.bib
+Warning--entry type for "CLIP" isn't style-file defined
+--line 30 of file bib.bib
+Warning--entry type for "DallETOS" isn't style-file defined
+--line 38 of file bib.bib
+Warning--entry type for "MidJourneyTOS" isn't style-file defined
+--line 46 of file bib.bib
+Warning--entry type for "UnstableDiffusion" isn't style-file defined
+--line 54 of file bib.bib
+Warning--entry type for "AIPropaganda" isn't style-file defined
+--line 62 of file bib.bib
+Warning--entry type for "CACGuidelines" isn't style-file defined
+--line 70 of file bib.bib
+Warning--entry type for "OperaSpecial" isn't style-file defined
+--line 78 of file bib.bib
+You've used 13 entries,
+            1791 wiz_defined-function locations,
+            500 strings with 5136 characters,
+and the built_in function-call counts, 1832 in all, are:
+= -- 117
+> -- 108
+< -- 0
++ -- 43
+- -- 30
+* -- 60
+:= -- 299
+add.period$ -- 28
+call.type$ -- 13
+change.case$ -- 13
+chr.to.int$ -- 0
+cite$ -- 13
+duplicate$ -- 71
+empty$ -- 227
+format.name$ -- 30
+if$ -- 411
+int.to.chr$ -- 0
+int.to.str$ -- 13
+missing$ -- 2
+newline$ -- 57
+num.names$ -- 13
+pop$ -- 79
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 51
+stack$ -- 0
+substring$ -- 0
+swap$ -- 13
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 13
+width$ -- 15
+write$ -- 112
+(There were 8 warnings)

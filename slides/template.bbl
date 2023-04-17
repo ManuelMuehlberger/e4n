@@ -1,0 +1,63 @@
+\begin{thebibliography}{10}
+
+\bibitem{DBLP:journals/corr/abs-2102-12092}
+Aditya Ramesh, Mikhail Pavlov, Gabriel Goh, Scott Gray, Chelsea Voss, Alec
+  Radford, Mark Chen, and Ilya Sutskever.
+\newblock Zero-shot text-to-image generation.
+\newblock {\em CoRR}, abs/2102.12092, 2021.
+
+\bibitem{https://doi.org/10.48550/arxiv.2204.06125}
+Aditya Ramesh, Prafulla Dhariwal, Alex Nichol, Casey Chu, and Mark Chen.
+\newblock Hierarchical text-conditional image generation with clip latents,
+  2022.
+
+\bibitem{CLIP}
+OpenAI.
+\newblock Clip openai, 2022.
+
+\bibitem{DBLP:journals/corr/abs-2006-11239}
+Jonathan Ho, Ajay Jain, and Pieter Abbeel.
+\newblock Denoising diffusion probabilistic models.
+\newblock {\em CoRR}, abs/2006.11239, 2020.
+
+\bibitem{OperaSpecial}
+Jason~M. Allen.
+\newblock Théâtre d’opéra spatial, 2022.
+
+\bibitem{https://doi.org/10.48550/arxiv.2212.03507}
+Seongbeom Park, Suhong Moon, and Jinkyu Kim.
+\newblock Judge, localize, and edit: Ensuring visual commonsense morality for
+  text-to-image generation, 2022.
+
+\bibitem{AIPropaganda}
+Mary Benett~Doty Daniel~Siegel.
+\newblock Weapons of mass disruption: Artificial intelligence and the
+  production of extremist propaganda, 2023.
+
+\bibitem{DallETOS}
+OpenAI.
+\newblock Dall-e 2 community guidelines, 2022.
+
+\bibitem{MidJourneyTOS}
+MidJourney Inc.
+\newblock Midjourneyai community guidelines, 2023.
+
+\bibitem{DallE}
+OpenAI.
+\newblock Dall-e 2 openai, 2022.
+
+\bibitem{UnstableDiffusion}
+Unstable Diffusion.
+\newblock Wikipage of a community focussed on generating nsfw images with
+  stable diffusion, 2023.
+
+\bibitem{CACGuidelines}
+Cyberspace~Administration of~China.
+\newblock Regulations on deep synthesis internet information services, 2023.
+
+\bibitem{https://doi.org/10.48550/arxiv.2202.04053}
+Jaemin Cho, Abhay Zala, and Mohit Bansal.
+\newblock Dall-eval: Probing the reasoning skills and social biases of
+  text-to-image generative models, 2022.
+
+\end{thebibliography}

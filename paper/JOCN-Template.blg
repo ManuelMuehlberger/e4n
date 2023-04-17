@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: JOCN-Template.aux
+The style file: osajnl.bst
+Database file #1: bib.bib
+Warning--entry type for "AIPropaganda" isn't style-file defined
+--line 72 of file bib.bib
+Warning--I didn't find a database entry for ""
+Warning--can't use both author and editor fields in Kant:1990
+You've used 30 entries,
+            2613 wiz_defined-function locations,
+            732 strings with 8885 characters,
+and the built_in function-call counts, 6928 in all, are:
+= -- 404
+> -- 254
+< -- 6
++ -- 99
+- -- 69
+* -- 378
+:= -- 812
+add.period$ -- 53
+call.type$ -- 30
+change.case$ -- 27
+chr.to.int$ -- 15
+cite$ -- 31
+duplicate$ -- 723
+empty$ -- 789
+format.name$ -- 78
+if$ -- 1554
+int.to.chr$ -- 0
+int.to.str$ -- 30
+missing$ -- 180
+newline$ -- 94
+num.names$ -- 33
+pop$ -- 350
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 142
+stack$ -- 0
+substring$ -- 45
+swap$ -- 430
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 33
+width$ -- 32
+write$ -- 234
+(There were 3 warnings)
